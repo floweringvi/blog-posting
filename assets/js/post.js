@@ -30,7 +30,7 @@ function blogPostbuild () {
      blogPost = localStorage.getItem('blogpost') 
     
     postCard = $('<div>')
-    postCard.attr('style', 'border: 4px solid white;')
+    postCard.attr('style', 'border: 4px solid violet;')
     userCreator=$('<h1>');
     userCreator.text(Username);
     // userCreator.attr('style', 'text-decoration:underline;')
@@ -65,3 +65,12 @@ function returnHome() {
 $(location). attr('href',homepage)
 }
 homeButton.on('click', returnHome)
+
+document.getElementById('darkside').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
+        document.documentElement.setAttribute('data-bs-theme','light')
+    }
+    else {
+        document.documentElement.setAttribute('data-bs-theme','dark')
+    }
+})
