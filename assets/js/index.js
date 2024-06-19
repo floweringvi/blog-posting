@@ -10,8 +10,8 @@ function redirectionFunc(event) {
     console.log("Hi how are you?")
     localStorage.setItem('title', Title.val())
     localStorage.setItem('username', userName.val())
-    localStorage.setItem('blogpost', blogContent)
+    localStorage.setItem('blogpost', blogContent.val())
 
     $(location).attr('href', postURL)
 }
-postButton.on('submit', redirectionFunc) 
+postButton.on('click', redirectionFunc) 
