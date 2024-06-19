@@ -1,5 +1,8 @@
 const postURL = './post.html'
-const postButton =$('')
+const postButton =$('.post-btn')
+const userName = $('#username')
+const Title = $('#title')
+const blogContent = $('#blogCon')
 
 
 function redirectionFunc(event) {
@@ -7,4 +10,4 @@ function redirectionFunc(event) {
     $(location).attr('href', postURL)
 
 }
-postButton.on('click', redirectionFunc) 
+postButton.on('submit', redirectionFunc) 
