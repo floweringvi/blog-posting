@@ -8,7 +8,8 @@ In this assignmentm, I built and created a blogging website complete with light 
 ## Usage
 
 Write up your inner most feelings and post them for yourself. 
-![blog post website, featuring form] (assets/Images/Screenshot 2024-06-19 at 1.40.47 AM.png)
+
+![blog post website, featuring form] (./assets/Images/Screenshot 2024-06-19 at 1.40.47 AM.png)
 
 
 ## Credits
