@@ -7,6 +7,10 @@ const blogContent = $('#blogCon')
 
 function redirectionFunc(event) {
     event.preventDefault();
+    if(!Title.val()|| !userName.val() || !blogContent.val()) {
+        alert("Must input all fields!")
+       $(location).attr('href','./index.html')
+    }
     console.log("Hi how are you?")
     localStorage.setItem('title', Title.val())
     localStorage.setItem('username', userName.val())
