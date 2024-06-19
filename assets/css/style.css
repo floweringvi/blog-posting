@@ -33,3 +33,10 @@ header h1:hover {
 header button {
    margin-left:80%;
 }
+footer {
+    display:flex;
+    justify-content: center;
+    margin-right:2%;
+    font-size: 20px;
+    color:violet;
+}
