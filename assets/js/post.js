@@ -31,4 +31,4 @@ homeButton = $('#homeplanet')
 function returnHome() {
 $(location). attr('href',homepage)
 }
-homtButton.on('click', returnHome)
+homeButton.on('click', returnHome)

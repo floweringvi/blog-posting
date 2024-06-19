@@ -5,6 +5,13 @@ header {
     height:80px;
     align-content: flex-end;
 }
+#darkside {
+    margin-right:2%;
+
+} 
+#homeplanet {
+    margin-left:2%;
+}
 #postplace h1 {
     text-decoration: underline;
     margin:5%;
