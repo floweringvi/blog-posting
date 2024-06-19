@@ -26,3 +26,9 @@ function blogPostbuild () {
 
 }
 blogPostbuild();
+const homepage = './index.html'
+homeButton = $('#homeplanet')
+function returnHome() {
+$(location). attr('href',homepage)
+}
+homtButton.on('click', returnHome)
