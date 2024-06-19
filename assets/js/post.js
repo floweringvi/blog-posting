@@ -74,3 +74,4 @@ document.getElementById('darkside').addEventListener('click',()=>{
         document.documentElement.setAttribute('data-bs-theme','dark')
     }
 })
+//This section of code was adapted from stackoverflow and bootstrap documentation, as listed in the README.md.
