@@ -1,0 +1,23 @@
+header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:80px;
+    align-content: flex-end;
+}
+#postplace h1 {
+    text-decoration: underline;
+    margin:5%;
+}
+#postplace h2 {
+    font-weight:bolder;
+    margin:5%;
+}
+#postplace p{
+    margin:5%;
+}
+#postplace {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
