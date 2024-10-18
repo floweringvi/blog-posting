@@ -2,7 +2,7 @@
 
 ## Description
 
-In this assignmentm, I built and created a blogging website complete with light dark toggle, incomplete form warning and blog post genration. This project was a handful but I learned a lot, namely when it came to the functionality of bootstraps light and dark mode.
+In this assignment, I built and created a blogging website complete with light dark toggle, incomplete form warning and blog post genration. This project was a handful but I learned a lot, namely when it came to the functionality of bootstraps light and dark mode.
 
 
 ## Usage

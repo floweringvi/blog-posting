@@ -21,8 +21,7 @@ function redirectionFunc(event) {
 }
 postButton.on('click', redirectionFunc) 
 
-// wholePage = $('#entirety')
-// Togglebtn= $('#lightordark')
+
 document.getElementById('lightordark').addEventListener('click',()=>{
     if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
         document.documentElement.setAttribute('data-bs-theme','light')
@@ -31,24 +30,5 @@ document.getElementById('lightordark').addEventListener('click',()=>{
         document.documentElement.setAttribute('data-bs-theme','dark')
     }
 })
-//This snippet of code comes from the bootstrap stackoverflow page, as well as the bootstrap documentation on light and dark mode.
-// function lightorDark(){
-//     if(wholePage.attr('data-bs-theme')=== 'dark') {
-//         wholePage.attr('data-bs-theme','light')
-//     } else {
-//         wholePage.attr('data-bs-theme','dark')
-//     }
 
-// }
-// mode= "dark"
-// function lightorDark(){
-//     if (mode ="dark") {
-//         mode="light";
-//       wholePage.attr('data-bs-theme','light');
-
-//     } else {
-//         mode="dark";
-//         wholePage.attr('data-bs-theme','dark');
-//     }
-// }
 Togglebtn.on('click', lightorDark())
