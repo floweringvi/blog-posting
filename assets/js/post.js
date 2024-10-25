@@ -7,7 +7,7 @@ if (storedBlogposts.length > 0) {
   Blogposts = storedBlogposts;
   for (let i = 0; i < Blogposts.length; i++) {
  
-    postCard1 = $("<div>");
+    postCard1 = $("<div>").attr("style", "border: 4px solid violet; padding:15px; margin: 20px;")
     username2 = $("<h1>").text(Blogposts[i].userCreator);
 
     postTitle2 = $("<h2>").text(Blogposts[i].blogTitle);
@@ -27,7 +27,7 @@ function blogPostbuild() {
   let postTitle = localStorage.getItem("title");
   let blogPost = localStorage.getItem("blogpost");
 
-  postCard = $("<div>").attr("style", "border: 4px solid violet;");
+  postCard = $("<div>").attr("style", "border: 4px solid violet; padding:15px; margin: 20px;");
 
   userCreator = $("<h1>").text(Username);
 

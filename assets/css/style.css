@@ -36,7 +36,11 @@ header button {
 footer {
     display:flex;
     justify-content: center;
+    text-decoration:none;
     margin-right:2%;
     font-size: 20px;
     color:violet;
 }
+a {
+    text-decoration: none;
+}  
