@@ -1,4 +1,5 @@
 postContainer = $("#postplace");
+Header = $("#postHeader");
 let storedBlogposts = JSON.parse(localStorage.getItem("Blogposts")) || [];
 let userName = localStorage.getItem("username") || "Default Username";
 let postTitle = localStorage.getItem("title") || "Default Title";
@@ -35,6 +36,7 @@ function blogPostbuild() {
 
   postContent = $("<p>").text(blogPost);
   
+  Header.text(`${Username}'s Recent Musings`).attr("style", " text-shadow: 1px 1px 2px purple, 0 0 1em plum, 0 0 0.2em greenyellow;")
 
   postCard.append(userCreator);
   postCard.append(blogTitle);

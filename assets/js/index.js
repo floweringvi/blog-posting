@@ -3,6 +3,11 @@ const postButton =$('#postBtn')
 const userName = $('#username')
 const Title = $('#title')
 const blogContent = $('#blogCon')
+const Header = $('#homeHeader')
+
+userName.on('input', function() {
+    Header.text(`${userName.val()}`);
+});
 
 
 function redirectionFunc(event) {
