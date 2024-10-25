@@ -69,3 +69,4 @@ document.getElementById("darkside").addEventListener("click", () => {
   }
 });
 //This section of code was adapted from stackoverflow and bootstrap documentation, as listed in the README.md.
+
